@@ -1,0 +1,12 @@
+Required Environment Variables for Manuel David Portfolio Chatbot:
+
+OPENAI_API_KEY=your_openai_api_key_here
+PORT=5000
+FLASK_ENV=production
+
+Instructions:
+1. Get your OpenAI API key from https://platform.openai.com/api-keys
+2. Set these environment variables in your Heroku app using:
+   heroku config:set OPENAI_API_KEY=your_actual_key_here
+3. PORT is automatically set by Heroku
+4. FLASK_ENV should be set to 'production' for Heroku deployment 
