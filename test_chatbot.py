@@ -9,8 +9,8 @@ import json
 import sys
 
 # Configuration
-BASE_URL = "http://localhost:5000"  # Change this to your Heroku URL when deployed
-# BASE_URL = "https://your-chatbot-app-name.herokuapp.com"
+# BASE_URL = "http://localhost:8000"  # For local testing
+BASE_URL = "https://manueldavid-resweb-ai-c4296bfdf0b7.herokuapp.com"  # Heroku deployment
 
 def test_health():
     """Test the health endpoint"""
